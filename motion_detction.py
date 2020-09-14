@@ -1,3 +1,4 @@
+import cv2
 #motion detection using opencv and writing in a video
 vid=cv2.VideoCapture('/content/videoplayback .mp4')
 frame_width = int(vid.get(3))# 3 to get the width
