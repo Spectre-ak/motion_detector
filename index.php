@@ -9,7 +9,7 @@
 	<?php
 	// PHP Data Objects(PDO) Sample Code:
 	try {
-	    $conn = new PDO("sqlsrv:server = tcp:sql-triton-demo0.database.windows.net,1433; Database = sqlDemo", "triton", "Akash2020");
+	    $conn = new PDO("sqlsrv:server = tcp:sql-triton-demo0.database.windows.net,1433; Database = sqlDemo", "triton", "Akash@)@)");
 	    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             echo "connected to SQL Server";
 	}
