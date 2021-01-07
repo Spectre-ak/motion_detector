@@ -11,6 +11,7 @@
 	try {
 	    $conn = new PDO("sqlsrv:server = tcp:sql-triton-demo0.database.windows.net,1433; Database = sqlDemo", "triton", "Akash2020");
 	    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            echo "connected to SQL Server";
 	}
 	catch (PDOException $e) {
 	    print("Error connecting to SQL Server.");
