@@ -19,13 +19,13 @@
 	}
 
 	// SQL Server Extension Sample Code:
-	$connectionInfo = array("UID" => "triton", "pwd" => "Akash2020", "Database" => "sqlDemo", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
+	$connectionInfo = array("UID" => "triton", "pwd" => "Akash@)@)", "Database" => "sqlDemo", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
 	$serverName = "tcp:sql-triton-demo0.database.windows.net,1433";
 	$conn = sqlsrv_connect($serverName, $connectionInfo);
 	
 	
 	$username = "triton";
-	$password = "Akash2020";
+	$password = "Akash@)@)";
 	$database="sqlDemo";
 
 	$mysqli = new mysqli($servername, $username, $password, $database);
